@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.banner{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-
+    gradient(rgba(0,0,0,0,75)rgba(0,0,0,0,75));
+    background-image: url("ph.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.navbar{
+    width: 100%;
+    margin: auto;
+    padding: 3px 1px;
+    display: flex;
+    align-items: right ;
+    justify-content:space-between ;
+    
+}
+.navbar ul{
+    padding: 35px 10px;
+}
+.cognifyzlogo{
+    width: 6%;
+    cursor: pointer;
+    
+}
+.navbar ul li{
+    list-style: none;
+    display:inline-block;
+    margin: 10px,20px;
+
+}
+.navbar ul{
+    float: right;
+    list-style-type: none;
+    
+}
+
+.navbar ul a{
+    text-decoration: none;
+    color: black;
+    text-transform: uppercases;
+    font-size: 17px;
+    width: 45px;
+    padding: 5px 10px;
+    border: 1px ;
+    
+
+}
+.cognifyzlogo img{
+    float: left;
+    width: 150px;
+    height: auto;
+    text-align: left;  
+
+
+}
+.banner{
+    max-width: 1300px;
+    margin: auto;
+}
+ul li.active a{
+    background-color: #fff;
+    color:black ;
+}
+.content{
+    width: 100%;
+    position: absolute;
+    top: 40%;
+    transform: translateY(-50%);
+    text-align: center;
+    color: black;
+    padding: 50px 10px;
+}
+.content h1{
+    font-size: 60px;
+    margin-top: 40px;
+
+}
+.content p{
+    margin: 20px auto;
+    font-weight: 100;
+    line-height: 25px;
+}
